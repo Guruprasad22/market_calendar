@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "market-calendar"
+version = "0.1.0"
+description = ""
+authors = ["guru.bobbi@gmail.com"]
+readme = "README.md"
+packages = [{include = "market_calendar", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.3.4"
+behave = "^1.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
